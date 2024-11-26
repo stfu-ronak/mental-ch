@@ -56,7 +56,7 @@ def create_conversational_chain(retriever: FAISS):
         create_retrieval_chain: The conversational retrieval chain.
     """
 
-     groq_api_key = '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'
+    groq_api_key = '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'
     if not groq_api_key:
         raise ValueError("GROQ API key not found.")
     
